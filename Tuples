@@ -1,0 +1,27 @@
+Q1. What is a tuple in Python?
+A tuple is an immutable object, which means it cannot be changed, and we use it to represent fixed collections of items.
+
+Q2. How do you create a tuple in Python?
+We create tuple using paranthesis()
+
+Q3. What is the difference between a tuple and a list in Python?
+tuple is immutable while list is mutable. The contents of a tuple cannot change once they have been created in Python due to the immutability of tuples.
+
+Q4. Can a tuple be changed in Python?
+No a tuple once created cannot change its values
+
+Q5. How do you access elements in a tuple?
+You can access tuple items by referring to the index number, inside square brackets
+eg: 
+t = ('Supra','Onepiece', 1, 3, 4,6,24,'sudh')
+t[1]
+'Onepiece'
+
+Q6. How do you unpack a tuple in Python?
+Fruits = ("apple", "banana", "cherry")
+('green','yellow','red') = Fruits
+print(green)
+print(yellow)
+print(red)
+
+('apple', 'banana', 'cherry')
